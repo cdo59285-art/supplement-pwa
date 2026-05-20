@@ -1,8 +1,10 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Supplement PWA",
-  description: "Supplement Reminder App",
+  metadataBase: new URL("http://localhost:3000"),
+  title: "Supplement Reminder",
+  description: "Offline Supplement PWA",
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
